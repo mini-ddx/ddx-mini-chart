@@ -1,7 +1,7 @@
 <config>
   {
     "pages": [
-      "pages/index/index",
+      "pages/index/index.ddx",
       "pages/line/index",
       "pages/area/index",
       "pages/dodge-area/index",
@@ -22,7 +22,8 @@
       "pages/scatter/index",
       "pages/bubble/index",
       "pages/k/index",
-      "pages/timeshare/index"
+      "pages/timeshare/index",
+      "pages/my/index.ddx"
     ],
     "tabBar": {
       "textColor": "#dddddd",
@@ -30,20 +31,16 @@
       "backgroundColor": "#ffffff",
       "items": [
         {
-          "pagePath": "pages/index/index",
+          "pagePath": "pages/index/index.ddx",
           "name": "首页",
           "icon": "@/assets/img/home.png",
           "activeIcon": "@/assets/img/home_focus.png"
         },
         {
-          "pagePath": "pages/message/index",
-          "name": "消息",
+          "pagePath": "pages/my/index.ddx",
+          "name": "关于",
           "icon": "./assets/img/my.png",
           "activeIcon": "./assets/img/my_focus.png"
-        },
-        {
-          "pagePath": "pages/hello.ddx",
-          "name": "你好"
         }
       ]
     },

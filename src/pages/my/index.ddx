@@ -1,0 +1,37 @@
+<template>
+  <view class="ddx-my">
+    <view class="ddx-my-header">
+      <image src="@/assets/img/ddx.png" />
+      <view class="ddx-my-header-title">ddx</view>
+      <view class="ddx-my-header-sub-title">渐进式支付宝小程序增强, 傻瓜式支持 typescript, scss, 单文件, eslint 等功能</view>
+    </view>
+  </view>
+</template>
+<style lang="scss">
+  .ddx-my {
+    &-header {
+      margin-top: 20px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      &-title {
+        text-align: center;
+        font-size: 25px;
+        color: $primary;
+      }
+
+      &-sub-title {
+        padding-top: 8px;
+        text-align: center;
+        font-size: 18px;
+        color: #666;
+      }
+
+      image {
+        width: 100px;
+        height: 100px;
+      }
+    }
+  }
+</style>
