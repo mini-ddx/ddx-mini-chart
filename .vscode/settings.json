@@ -1,0 +1,12 @@
+{
+  "files.associations": {
+    "*.wxss": "css",
+    "*.wxs": "javascript",
+    "*.ddx": "vue",
+    "*.acss": "css",
+    "*.sjs": "javascript"
+  },
+  "vetur.grammar.customBlocks": {
+    "config": "json"
+  }
+}

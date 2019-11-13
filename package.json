@@ -1,0 +1,45 @@
+{
+  "name": "ddx-mini-chart",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "ddx serve",
+    "build": "ddx build",
+    "lint": "eslint --fix src --ext '.ts,.js,.ddx'"
+  },
+  "dependencies": {
+    "@antv/my-f2": "^1.1.6",
+    "mini-antui": "^0.4.34"
+  },
+  "devDependencies": {
+    "@ddxjs/cli": "^0.0.5",
+    "@ddxjs/cli-plugin-babel": "^0.0.5",
+    "@ddxjs/cli-plugin-eslint": "^0.0.5",
+    "@ddxjs/cli-plugin-typescript": "^0.0.5"
+  },
+  "eslintConfig": {
+    "root": true,
+    "globals": {
+      "tinyapp": true
+    },
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "@ddxjs/ddx"
+    ],
+    "rules": {
+      "max-len": "off",
+      "no-multi-assign": "off",
+      "no-prototype-builtins": "off",
+      "no-undef": "off",
+      "no-param-reassign": "off",
+      "prefer-const": "off",
+      "no-shadow": "warn"
+    },
+    "parserOptions": {
+      "parser": "babel-eslint"
+    }
+  }
+}

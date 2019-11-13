@@ -1,0 +1,57 @@
+<config>
+  {
+    "pages": [
+      "pages/index/index",
+      "pages/line/index",
+      "pages/area/index",
+      "pages/dodge-area/index",
+      "pages/stack-area/index",
+      "pages/column/index",
+      "pages/dodge/index",
+      "pages/stack-column/index",
+      "pages/bar/index",
+      "pages/dodge-bar/index",
+      "pages/stack-bar/index",
+      "pages/radar/index",
+      "pages/radar-fund/index",
+      "pages/pie/index",
+      "pages/radial-bar/index",
+      "pages/labelline-pie/index",
+      "pages/ring/index",
+      "pages/rose/index",
+      "pages/scatter/index",
+      "pages/bubble/index",
+      "pages/k/index",
+      "pages/timeshare/index"
+    ],
+    "tabBar": {
+      "textColor": "#dddddd",
+      "selectedColor": "#49a9ee",
+      "backgroundColor": "#ffffff",
+      "items": [
+        {
+          "pagePath": "pages/index/index",
+          "name": "首页",
+          "icon": "@/assets/img/home.png",
+          "activeIcon": "@/assets/img/home_focus.png"
+        },
+        {
+          "pagePath": "pages/message/index",
+          "name": "消息",
+          "icon": "./assets/img/my.png",
+          "activeIcon": "./assets/img/my_focus.png"
+        },
+        {
+          "pagePath": "pages/hello.ddx",
+          "name": "你好"
+        }
+      ]
+    },
+    "window": {
+      "defaultTitle": "小程序图表组件库"
+    }
+  }
+</config>
+<script>
+App({});
+</script>
